@@ -5,7 +5,98 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Login</title>
-<link rel="stylesheet" type="text/css" href="style/login.css">
+<style>
+ * {
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        font-family: Poppins-Regular,sans-serif;
+    }
+    .mainDiv{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right, #f3751f , #292e7d);
+    }
+    .main{
+        width: 70%;
+        height: 80%;
+        position: absolute;
+	   top:0;
+	   bottom: 0;
+	   left: 0;
+	   right: 0;
+        margin: auto;
+        border: 1px solid #f1f1f1;
+        border-radius: 8px;
+        padding: 10px;
+        background-color: #f1f1f1;
+    }
+    .leftdiv{
+        width: 50%;
+        height: 100%;
+        float: left;
+        margin: 0px;
+        text-align: center;
+        border-right: 1px solid grey;
+    }
+    .rightdiv{
+        width: 48%;
+        height: 100%;
+        float: right;
+    }
+    img{
+        border: 2px solid grey;
+        border-radius: 50%;
+        margin: auto;
+        margin-top:25%;
+        width: 60%;
+        height: auto;
+    }
+    input{
+        height: 40px;
+        width: 60%;
+        border: 1px solid grey;
+        border-radius: 30px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .submit{
+        height: 40px;
+        width: 100px;
+        color: #f1f1f1;
+        border: 1px solid grey;
+        border-radius: 30px;
+        padding-left: 10px;
+        background-color: #292e7d;
+    }
+    h1{
+        padding-top: 50px;
+    }
+    a{
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .gap{
+        margin-top: 20px;
+    }
+    .closebtn{
+        float: right;
+        transform: rotate(45deg);
+        margin-top: 0;
+        margin-right: 8px;
+        text-align: right;
+        font-size: 40px;
+        color: black;
+        font-weight: 500;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
 </head>
 <body>
 <div class="mainDiv">

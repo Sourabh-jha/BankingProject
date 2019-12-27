@@ -8,39 +8,26 @@
 <link rel="stylesheet" type="text/css" href="style/forgot-password.css">
 </head>
 <body>
+
+<div class="mainDiv">
+    <div class="main">
 <form>
 
-<div class="maindiv" >
+ <div style="text-align: center;">
+ <img  src="images/password.png" width="100" height="100">
+ <h1>Forgot Password </h1>
+<input type="text"  name="enteruserid" style="margin-top: 20px;" placeholder="EnterUserId" required><br> <br /> 
+<input type="text" name="otp"" placeholder="EnterOTP" required><br> <br /> 
+           
+<button style="margin-left:20px;"  type="button" class="submit">Proceed</button>&nbsp&nbsp&nbsp&nbsp&nbsp
+  <button  type="button" class="submit">Back</button>
 
-<p class="nav" >Forgot Password </p>
-
-<div>
-<label for="Enter User Id"><b>Enter User Id:&nbsp &nbsp &nbsp</b></label>
- <input style="margin-left:65px;"  type="text"  name="enteruserid" required>
 </div>
 
-<div>
-<label for="OTP"><b>Enter OTP:&nbsp &nbsp &nbsp</b></label>
- <input style="margin-left:85px;" type="text"  name="otp" required>
- </div>
- 
- <div>
- <button style="margin-left:100px;"  type="button" class="loginbtn">Proceed</button>&nbsp&nbsp&nbsp&nbsp&nbsp
-  <button  type="button" class="loginbtn">Back</button>
-</div>
+
 
 </form>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
