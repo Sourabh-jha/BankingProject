@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Forgot-User</title>
+<title>SetPassword</title>
 
 <style>
 
@@ -44,10 +44,10 @@ input[type=text], input[type=password] {
 
 .submit {
 	height: 40px;
-	width: 100px;
+	width: 150px;
 	color: #f1f1f1;
 	border: 1px solid grey;
-	border-radius: 30px;
+	border-radius: 50px;
 	padding-left: 10px;
 	background-color: #292e7d;
 }
@@ -74,27 +74,20 @@ input[type=text], input[type=password] {
 	background-color: white;
 }
 </style>
-
-
 </head>
 <body>	
-
 
 <div class="mainDiv">
 <div class="main">
 <form>
 <div style="text-align: center;">
  <img  src="images/password.png" width="75" height="90">
- <h1> Forgot User </h1>
-<input type="text"  name="enteraccountnumber" style="margin-top: 20px;" placeholder="Enter Account Number" required><br> <br /> 
-<input type="text" name="otp" placeholder="EnterOTP" required><br> <br /> 
+ <h1> Set New Password </h1>
+<input type="text"  name="enternewpassword" style="margin-top: 20px;" placeholder="Enter New Password" required><br> <br /> 
+<input type="text" name="confirmnewpassword" placeholder="Confirm New Password  " required><br> <br /> 
            
-<button style="margin-left:20px;"  type="button" class="submit">Proceed</button>&nbsp&nbsp&nbsp&nbsp&nbsp
-  <button  type="button" class="submit">Back</button>
-
+<button style="margin-left:20px;"  type="button" class="submit">Save Changes</button>
 </div>
-
-
 </form>
 </div>
 </div>

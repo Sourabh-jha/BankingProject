@@ -10,12 +10,12 @@
 <body>
 
 <div class="mainDiv">
-    <div class="main">
+ <div class="main">
 <form>
 
  <div style="text-align: center;">
- <img  src="images/password.png" width="100" height="100">
- <h1>Forgot Password </h1>
+ <img  src="images/password.png" width="75" height="90">
+ <h1> Forgot Password </h1>
 <input type="text"  name="enteruserid" style="margin-top: 20px;" placeholder="EnterUserId" required><br> <br /> 
 <input type="text" name="otp"" placeholder="EnterOTP" required><br> <br /> 
            
@@ -24,10 +24,10 @@
 
 </div>
 
-
+</div>
 
 </form>
-</div>
+
 
 </body>
 </html>
